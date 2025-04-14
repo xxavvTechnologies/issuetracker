@@ -1,0 +1,85 @@
+.issue-details {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(165, 237, 242, 0.1);
+}
+
+.issue-header {
+    display: grid;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(165, 237, 242, 0.1);
+}
+
+.issue-id {
+    color: var(--text-secondary);
+    font-family: 'Space Grotesk', monospace;
+    font-size: 1.1rem;
+}
+
+.issue-title {
+    font-size: 2rem;
+    color: var(--brand-color);
+}
+
+.issue-info {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.issue-description {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.updates-section {
+    margin-top: 40px;
+}
+
+.updates-section h3 {
+    margin-bottom: 20px;
+    color: var(--brand-color);
+}
+
+.update-item {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.update-content {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.update-meta {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    display: flex;
+    gap: 15px;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    background: rgba(165, 237, 242, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.back-link:hover {
+    background: rgba(165, 237, 242, 0.15);
+    color: var(--brand-color);
+}
